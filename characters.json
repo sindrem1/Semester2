@@ -1,5 +1,4 @@
-{
-    "characters": [
+[
       {
         "Id": 1,
         "Name": "Jon Snow",
@@ -519,8 +518,5 @@
           "Season 3",
           "Season 4",
           "Season 5",
-          "Season 6"
+          "Season 6"]}
         ]
-      }
-      
-]}
