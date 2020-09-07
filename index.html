@@ -14,21 +14,30 @@
 
   <div class="container">
     <div class="logotext">Welcome to Race to the throne!</div>
-
-    <div id="playerPlaceholder"></div>
-    <div id="player2Placeholder"></div>
-
-    <button id="start" onclick="StartGame()">Start</button>
-    <button id="reset" onclick="ResetGame()">Reset</button>
-  
-    <div id="cardContainer"></div>
-    
-    <div class="row"></div>
-      <div class="col" id="cards">
-  
-  
+    <div id="hideall">
+      <div id="player1">
+        <div id="playerPlaceholder"></div>
+        <div id="player1char"></div>
       </div>
+      <div id="player2"></div>
+      <div id="player2Placeholder"></div>
+      <br>
+      <div id="player2char"></div>
     </div>
+    <div id="buttons">
+      <button id="start" onclick="StartGame()">Start</button>
+      <button id="reset" onclick="ResetGame()">Reset</button>
+    </div>
+
+  </div>
+  <div id="cardContainer"></div>
+
+  <div class="row"></div>
+  <div class="col" id="cards">
+
+
+  </div>
+  </div>
 
   </div>
   <footer>

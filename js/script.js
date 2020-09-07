@@ -33,6 +33,7 @@ function GameOn(){
   var secoundSelected = setStorage.getItem('player2');
   if(firstSelected && secoundSelected){
     PlayerSelectedInsert()
+    document.getElementById("hideall").style.display = "block";
     document.getElementById("start").style.display = "block";
     document.getElementById("reset").style.display = "block";
     
@@ -40,10 +41,13 @@ function GameOn(){
 }
 
 function PlayerSelectedInsert() {
+    window.scrollTo(0, 0); 
     var firstplayer = localStorage.getItem('player1');
     var secoundplayer = localStorage.getItem('player2');
     document.getElementById("playerPlaceholder").innerHTML = 'Player one has selected ' + firstplayer;
     document.getElementById("player2Placeholder").innerHTML = 'Player two has selected ' +  secoundplayer;
+    document.getElementById("player1char").style.backgroundImage = "url('img/"+firstplayer+".jpg')";
+    document.getElementById("player2char").style.backgroundImage = "url('img/"+secoundplayer+".jpg')";
   }
 
 setStorage.clear();

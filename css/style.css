@@ -13,11 +13,12 @@ body {
   color: #603813;
 }
 
-.container {
-  max-width: 1250px;
-  margin: 0 auto 0 auto;
-}
 
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 #start {
   display: none;
@@ -28,6 +29,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 #reset {
@@ -39,14 +41,58 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
+#player1 {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#player2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#player1char {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  background-size: 185px 200px;
+
+}
+
+#player2char {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+  background-size: 185px 200px;
+}
+
+#hideall {
+  display: none;
+  text-align: center;
+}
+
+
+#cards {
+
+  margin-left: 150px;
+}
+
+
 .characters {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   float: left;
-  width: 15%;
-  height: 485px;
+  width: 17%;
+  height: 235px;
   margin: 0 20px 40px 0;
   border: 2px solid #000;
   font-family: Montserrat;
@@ -56,7 +102,6 @@ body {
 
 
 .char-img {
-  border-bottom: 2px solid black;
   width: 100px;
   height: 100px;
 }
@@ -332,4 +377,20 @@ color: #eba307;
   left: 1530px;
   top: 440px;
   text-align: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+.characters {
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 235px;
+  border: 2px solid #000;
+  font-family: Montserrat;
+  text-align: center;
+  cursor: pointer;
+}
+
 }
