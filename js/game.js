@@ -195,6 +195,8 @@ button.addEventListener('click', (e) => {
     document.getElementById("goesfirst").style.display = "none";
 
   if (rollorder == 1) {
+    document.getElementById("imageplayer").style.opacity = "1";
+    document.getElementById("image2player").style.opacity = "0.5";
     const roll = rollDice();
     console.log(roll);
     document.getElementById('dice').innerHTML = roll;
@@ -216,7 +218,8 @@ button.addEventListener('click', (e) => {
 }
 
  if (rollorder == 2) {
-
+    document.getElementById("image2player").style.opacity = "1";
+    document.getElementById("imageplayer").style.opacity = "0.5";
     const roll = rollDice();
     console.log(roll);
     document.getElementById('dice').innerHTML = roll;

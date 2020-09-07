@@ -21,7 +21,7 @@ body {
 
 #start {
   display: none;
-  background-color: #279be9; /* Green */
+  background-color: #279be9; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -32,7 +32,7 @@ body {
 
 #reset {
   display: none;
-  background-color: #b92121; /* Green */
+  background-color: #b92121;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -95,7 +95,7 @@ background-color: #91a2ac;
     }
 
     [id="7"] {
-      background-image: url("img/bridge.png");
+      background-image: url("../img/bridge.png");
       }
 
       [id="9"] {
@@ -115,7 +115,7 @@ background-color: #91a2ac;
               }
 
               [id="17"] {
-                background-image: url("img/duel.png");
+                background-image: url("../img/duel.png");
                 }
 
                 [id="19"] {
@@ -129,13 +129,13 @@ background-color: #91a2ac;
                       background-color: #91a2ac;
                       }
                       [id="25"] {
-                        background-image: url("img/town.png");
+                        background-image: url("../img/town.png");
                         }
                         [id="27"] {
                           background-color: #91a2ac;
                           }
                           [id="29"] {
-                            background-image: url("img/castle.png");
+                            background-image: url("../img/castle.png");
                             }
 
                             [id="0"] {
@@ -167,7 +167,7 @@ background-color: #91a2ac;
                                           }
                               
                                           [id="14"] {
-                                            background-image: url("img/snow.png");
+                                            background-image: url("../img/snow.png");
                                             }
                               
                                             [id="16"] {
@@ -179,7 +179,7 @@ background-color: #91a2ac;
                                                 }
                               
                                                 [id="20"] {
-                                                  background-image: url("img/mountain.png");
+                                                  background-image: url("../img/mountain.png");
                                                   }
                                                   [id="22"] {
                                                     background-color: #0e110a;
@@ -236,11 +236,6 @@ color: #eba307;
       color: rgb(15, 173, 68);
       }
 
-#goesfirst {
-  position: absolute;
-  top: 130px;
-  left: 1300px;
-}
     
 #imageplayer {
   position: absolute;
@@ -297,11 +292,24 @@ color: #eba307;
   top: 400px;
 }
 
+#goesfirst {
+  position: absolute;
+  top: 130px;
+  left: 1300px;
+}
+
+#turn {
+  position: absolute;
+  top: 400px;
+  left: 1550px;
+}
+
+
 
 #roll-button {
   position: absolute;
-  left: 550px;
-  top: 100px;
+  left: 1600px;
+  top: 450px;
   background-color: #279be9; /* Green */
   border: none;
   color: white;
@@ -316,14 +324,12 @@ color: #eba307;
 
 }
 
-#turn {
-  position: absolute;
-  left: 550px;
-  top: 70px;
-}
 
 #dice {
+  width: 50px;
+  height: 40px;
   position: absolute;
-  left: 550px;
-  top: 160px;
+  left: 1530px;
+  top: 440px;
+  text-align: center;
 }
