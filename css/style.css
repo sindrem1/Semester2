@@ -1,0 +1,329 @@
+body {
+  background-color: rgba(255, 255, 255, 0.781);
+  font-family: Montserrat;
+}
+
+
+.logotext {
+  font-size: 2.8em;
+  max-width: 600px;
+  margin: 0 auto 70px auto;
+  text-align: center;
+  font-family: 'Alegreya', serif;
+  color: #603813;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto 0 auto;
+}
+
+
+#start {
+  display: none;
+  background-color: #279be9; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#reset {
+  display: none;
+  background-color: #b92121; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.characters {
+  background-color: black;
+  color: white;
+  float: left;
+  width: 15%;
+  height: 485px;
+  margin: 0 20px 40px 0;
+  border: 2px solid #000;
+  font-family: Montserrat;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.char-img {
+  border-bottom: 2px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+#playerone {
+  position: absolute;
+  top: 755px;
+  left: 755px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #eba307;
+  z-index: 1;
+}
+#playertwo {
+  position: absolute;
+  top: 795px;
+  left: 795px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: rgb(15, 173, 68);
+  z-index: 1;
+}
+
+[id="1"] {
+background-color: #91a2ac;
+}
+
+  [id="3"] {
+  background-color: #91a2ac;
+  }
+
+  [id="5"] {
+    background-color: #91a2ac;
+    }
+
+    [id="7"] {
+      background-image: url("img/bridge.png");
+      }
+
+      [id="9"] {
+        background-color: #91a2ac;
+        }
+
+        [id="11"] {
+          background-color: #91a2ac;
+          }
+
+          [id="13"] {
+            background-color: #91a2ac;
+            }
+
+            [id="15"] {
+              background-color: #91a2ac;
+              }
+
+              [id="17"] {
+                background-image: url("img/duel.png");
+                }
+
+                [id="19"] {
+                  background-color: #91a2ac;
+                  }
+
+                  [id="21"] {
+                    background-color: #91a2ac;
+                    }
+                    [id="23"] {
+                      background-color: #91a2ac;
+                      }
+                      [id="25"] {
+                        background-image: url("img/town.png");
+                        }
+                        [id="27"] {
+                          background-color: #91a2ac;
+                          }
+                          [id="29"] {
+                            background-image: url("img/castle.png");
+                            }
+
+                            [id="0"] {
+                              background-color: #0e110a;
+                              }
+                              
+                              [id="2"] {
+                                background-color: #0e110a;
+                                }
+                              
+                                [id="4"] {
+                                  background-color: #0e110a;
+                                  }
+                              
+                                  [id="6"] {
+                                    background-color: #0e110a;
+                                    }
+                              
+                                    [id="8"] {
+                                      background-color: #0e110a;
+                                      }
+                              
+                                      [id="10"] {
+                                        background-color: #0e110a;
+                                        }
+                              
+                                        [id="12"] {
+                                          background-color: #0e110a;
+                                          }
+                              
+                                          [id="14"] {
+                                            background-image: url("img/snow.png");
+                                            }
+                              
+                                            [id="16"] {
+                                              background-color: #0e110a;
+                                              }
+                              
+                                              [id="18"] {
+                                                background-color: #0e110a;
+                                                }
+                              
+                                                [id="20"] {
+                                                  background-image: url("img/mountain.png");
+                                                  }
+                                                  [id="22"] {
+                                                    background-color: #0e110a;
+                                                    }
+                                                    [id="24"] {
+                                                      background-color: #0e110a;
+                                                      }
+                                                      [id="26"] {
+                                                        background-color: #0e110a;
+                                                        }
+                                                        [id="28"] {
+                                                          background-color: #0e110a;
+                                                          }
+
+
+
+
+.boardback {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+
+}
+
+
+.tile {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+#playerPlaceholder {
+color: #eba307;
+}
+
+#player2Placeholder {
+  color: rgb(15, 173, 68);
+  }
+
+  #gplayerPlaceholder {
+    position: absolute;
+    top: 200px;
+    left: 1300px;
+    color: #eba307;
+    }
+    
+    #gplayer2Placeholder {
+      position: absolute;
+      top: 500px;
+      left: 1300px;
+      color: rgb(15, 173, 68);
+      }
+
+#goesfirst {
+  position: absolute;
+  top: 130px;
+  left: 1300px;
+}
+    
+#imageplayer {
+  position: absolute;
+  top: 230px;
+  left: 1300px;
+  height: 200px;
+  width: 200px;
+  background-size: 185px 200px;
+
+}
+
+#image2player {
+  position: absolute;
+  top: 530px;
+  left: 1300px;
+  height: 200px;
+  width: 200px;
+  background-size: 185px 200px;
+}
+
+.leftarrow1
+{
+  position: absolute;
+  left: 295px;
+  top: 700px;
+}
+
+.leftarrow2
+{
+  position: absolute;
+  left: 295px;
+  top: 500px;
+}
+
+.leftarrow3
+{
+  position: absolute;
+  left: 295px;
+  top: 300px;
+}
+
+
+.rightarrow1
+{
+  position: absolute;
+  left: 860px;
+  top: 600px;
+}
+
+.rightarrow2
+{
+  position: absolute;
+  left: 860px;
+  top: 400px;
+}
+
+
+#roll-button {
+  position: absolute;
+  left: 550px;
+  top: 100px;
+  background-color: #279be9; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#roll-button:hover {
+  background-color: #0d1a22; /* Green */
+
+}
+
+#turn {
+  position: absolute;
+  left: 550px;
+  top: 70px;
+}
+
+#dice {
+  position: absolute;
+  left: 550px;
+  top: 160px;
+}
