@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Game of Thrones - Race for the throne</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body onload="PlayerImgs()">
+
+	<body>
+
+		<button id="roll-button">Roll</button>
+		<h3 id="turn"></h3>
+		<h3 id="goesfirst"></h3>
+		<h3 id="lastroll">Last roll:</h3>
+		<h2 id="dice"></h2>
+
+		<div id="gplayerPlaceholder"></div>
+		<div id="imageplayer"></div>
+		<div id="gplayer2Placeholder"></div>
+		<div id="image2player"></div>
+
+
+		<div id="myModal" class="modal">
+
+			<div class="modal-content">
+				<div id="traps"></div>
+			</div>
+
+		</div>
+
+
+		<div id="playerone"></div>
+		<div id="playertwo"></div>
+		<div id="boardback">
+			<img src="img/boardback.png" alt="board background" class="boardback">
+			<div id="tiles-wrapper"></div>
+
+
+			<img src="img/leftside.png" class="leftarrow1" alt="Left arrow">
+
+			<img src="img/leftside.png" class="leftarrow2" alt="Left arrow">
+
+			<img src="img/leftside.png" class="leftarrow3" alt="Left arrow">
+
+
+			<img src="img/rightside.png" class="rightarrow1" alt="right arrow">
+
+			<img src="img/rightside.png" class="rightarrow2" alt="right arrow">
+
+		</div>
+
+
+
+		<script type="text/javascript" src="js/game.js"></script>
+	</body>
+
+</html>
