@@ -13,7 +13,7 @@ fetch("https://raw.githubusercontent.com/sindrem1/jsonfetch/master/characters.js
 
     charArray.forEach(function(card) {
         newHTML += `<div class="characters" onclick="save('${card.Name}')()">
-        <img class="char-img" src="${card.imageUrl}" alt="Card image cap">
+        <img class="char-img" src="${card.imageUrl}" alt="Characther Image ${card.Id}">
         <h3 class="char-title">${card.Name}</h3>
         <p class="char-text">${card.Aliases[0]}</p>
         <p class="char-text">Born: ${card.Born}</p>
@@ -64,7 +64,7 @@ function save(charName){
 
 function StartGame(charName){
 
-    window.location.href = "gamepage.html";
+    window.location.href = "game.html";
 
 }
 
